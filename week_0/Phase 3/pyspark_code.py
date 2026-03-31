@@ -22,7 +22,7 @@ Codes:
 
 4. Find highest spending customer in each city
   customer_totals = customers.join(sales, "customer_id")\
-  .withColumn("total_amount", col("total_amount").cast("double"))\
+  .withColumn("total_amount", col("total_amount"))\
   .withColumn("cus_name", concat_ws(" ", col("first_name"), col("last_name")).alias("cus_name"))\
   .groupBy( "cus_name", "city") \
   .agg(sum("total_amount").alias("amount")) 
