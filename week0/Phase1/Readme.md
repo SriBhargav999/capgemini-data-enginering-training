@@ -1,7 +1,7 @@
 **Objective:**
 
   Build confidence with simple SQL queries and equivalent PySpark DataFrame operations using easy Spark Playground tutorials and small starter datasets.
-  
+
 _______________________________________________________________________________________________________________
 **Problem Statement (Summary):**
   1. Show all customers
