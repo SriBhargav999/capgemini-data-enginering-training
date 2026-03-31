@@ -1,10 +1,14 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("Practice").getOrCreate()
+
 customers = spark.createDataFrame([
  (1, "Ravi", "Hyderabad", 25),
  (2, "Sita", "Chennai", 32),
  (3, "Arun", "Hyderabad", 28)
 ], ["customer_id", "customer_name", "city", "age"])
 
-Queries:
+#Implementing the codes
 
 1. Show all customers
   customers.show()
