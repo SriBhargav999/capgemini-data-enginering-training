@@ -59,4 +59,3 @@ ________________________________________________________________________________
   - phase1_problem_statement.pdf → Problem description
   - sql_queries.py, pyspark_code.py → Implementation
   - Ouputs → Results
-  - 
